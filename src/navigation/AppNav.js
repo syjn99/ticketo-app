@@ -18,7 +18,7 @@ export default function AppNav() {
 
   return (
     <NavigationContainer>
-      {userAddress === '1' ? <AuthScreen /> : <AppTab />}
+      {userAddress === '' ? <AuthScreen /> : <AppTab />}
     </NavigationContainer>
   )
 }
