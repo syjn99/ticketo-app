@@ -10,7 +10,7 @@ export const UserProvider = ({ children }) => {
 
   const connect = () => {
     setIsLoading(true);
-    setUserAddress('0x11');
+    setUserAddress('0x12345678910');
     setIsLoading(false);
   }
 

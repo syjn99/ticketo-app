@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 
 export default function TicketingStack() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Amount" component={AmountScreen} />
       <Stack.Screen name="Date" component={DateScreen} />
       <Stack.Screen name="Seat" component={SeatScreen} />

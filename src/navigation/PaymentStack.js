@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 
 export default function PaymentStack() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Check" component={CheckScreen} />
       <Stack.Screen name="Success" component={SuccessScreen} />
       <Stack.Screen name="Fail" component={FailScreen} />
