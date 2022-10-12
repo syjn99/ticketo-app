@@ -9,7 +9,7 @@ import ConcertInfoBox from '../component/ConcertInfoBox';
 export default function MainScreen({ route, navigation }) {
   const { userAddress, userBalance } = useContext(UserContext);
 
-  console.log(route);
+  // console.log(route);
 
 
   return (

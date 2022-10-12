@@ -6,6 +6,7 @@ import logo from '../../assets/logo.png';
 
 export default function FullHeader() {
   const { userAddress, userBalance } = useContext(UserContext);
+  console.log(userAddress);
 
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center' }}>
